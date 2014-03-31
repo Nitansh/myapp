@@ -1,0 +1,21 @@
+
+
+
+
+
+
+<div ng-controller= "loginController" class="container views_class" id = "flipBox" style = " background-color: #B1B1B1">
+
+   <div class="form-signin" role="form">
+      <h2 class="form-signin-heading">{{trans.t(data.Header)}}</h2>
+      <input type="text" class="form-control" id="UserName" placeholder={{trans.t(data.UserName)}} required autofocus>
+      <div id="alert"></div>
+      <input type="password" class="form-control" id="Password" placeholder={{trans.t(data.Password)}} required>
+      <div id="alert1"></div>
+      <label class="checkbox">
+      <input type="checkbox" value="remember-me"> {{trans.t(data.CheckboxText)}}
+      </label>
+      <a href= "#/generalInformation"><button id="login" class="btn btn-lg btn-primary btn-block">{{trans.t(data.ButtonText)}}</button></a>
+   </div>
+</div>
+<!-- /container -->

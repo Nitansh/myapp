@@ -1,0 +1,42 @@
+{
+	"Company"  : "NewRoz",
+
+		
+	"Tab_Details" : [
+		{
+		"Tab_name" : "Rating Plan",
+		"Tab_link" : "#/generalInformation",
+		"Class"	   : "general"
+		},
+		{
+		"Tab_name" : "General Information",
+		"Tab_link" : "#/ratingplan",
+		"Class"	   : "ratingPlan"
+		}
+	],
+
+	"DropDown_Buttons" : [
+		{
+			"Button_Name" : "LogOut",
+			"Button_Link" : "/#"
+		},
+		{
+			"Button_Name" : "Referesh",
+			"Button_Link" : "/#/Referesh"
+		}
+
+
+	],
+	"DropDown_Buttons2" : [
+		{
+			"Button_Name" : "LTR"
+			
+		},
+		{
+			"Button_Name" : "RTL"
+			
+		}
+
+
+	]
+}
